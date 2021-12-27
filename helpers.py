@@ -1,9 +1,9 @@
-output_types={
+output_types={{
     "o":" output",
     "e":"  error",
     "h":"   help"
-}
+}}
 
 def output(type, output):
-    output = ["<tool name>", output_types[type], str(output)]
+    output = ["{0}", output_types[type], str(output)]
     print(": ".join(output))

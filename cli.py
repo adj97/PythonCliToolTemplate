@@ -1,15 +1,13 @@
 def help():
     print_message = [
-        "Welcome to <tool name>, a cli tool for <description>",
+        "Welcome to {0}, a cli tool for <description>",
         "Commands include: " + ", ".join(commands),
-        "usage: <tool name> <command> [parameters]"
+        "usage: {0} <command> [parameters]"
     ]
     print('\n'.join(print_message))
 
 commands = [
     "help",
     "command1",
-    "command2",
-    "command3",
-    "command4"
+    "command2"
 ]
