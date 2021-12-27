@@ -2,9 +2,9 @@ from helpers import *
 
 def output():
     expected_output = [
-        "<tool name>:  output: qwertyuiop12345",
-        "<tool name>:   error: qwertyuiop12345",
-        "<tool name>:    help: qwertyuiop12345"
+        "{0}:  output: qwertyuiop12345",
+        "{0}:   error: qwertyuiop12345",
+        "{0}:    help: qwertyuiop12345"
     ]
     input = [
         ["o", "qwertyuiop12345"],

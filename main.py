@@ -27,15 +27,7 @@ if __name__ == "__main__":
                 # command 2
                 output("o","Command2")
                 command2(args)
-            elif command == commands[3]:
-                # command 3
-                output("o","Command3")
-                command3(args)
-            elif command == commands[4]:
-                # command 4
-                output("o","Command4")
-                command4(args)
-            
+
             # healthy finish
             output("o", "Completed")
         except Exception as e:
